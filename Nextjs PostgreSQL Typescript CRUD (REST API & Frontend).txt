@@ -1,0 +1,25 @@
+Nextjs PostgreSQL Typescript CRUD (REST API & Frontend)
+https://www.youtube.com/watch?v=fle43mKDLSI
+
+Creando el proyecto
+npx create-next-app nextjs-postgres-crud-typescript --ts
+
+instalar PostgreSQL
+npm install pg
+npm install --save @types/pg
+
+Ejecutar el proyecto
+npm run dev
+
+
+Comando para PostgreSQL con Cmd
+Conectar al postgres
+psql -U postgres
+
+entrar a la bd creada
+\c tasksdb
+
+Select * from tasks;
+
+Frontend
+npm install semantic-ui-react semantic-ui-css
